@@ -2,13 +2,15 @@ main{
   display:flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-block: 24px;
-  padding-left: 150px;
+  padding: 24px 32px;
+  justify-content: center;
 }
 
 main img{
   width: 286px;
-  height: 286px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
   object-fit: cover;
 }
 
